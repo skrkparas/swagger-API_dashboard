@@ -8,8 +8,8 @@ const tag = {
 const swaggerDocs =  {
     openapi : "3.0.0",
     info: {
-        title: "MLPHMPLSPPPP",
-        description: " this a demo site",
+        title: "KAPIVA DASHBOARD",
+        description: "swagger implementation for dashboard - Please note dev server version will be updated",
         version: "0.0.1"
     },
     servers: [
