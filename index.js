@@ -34,5 +34,5 @@ app.all("/", (req, res) => {
 });
 console.log("main route", sample);
 app.use(router);
-
-app.listen(4000, () => console.log("server running on port 4000"));
+const port = process.env.PORT || 80;
+app.listen(port, () => console.log(`server running on port ${port}`));
