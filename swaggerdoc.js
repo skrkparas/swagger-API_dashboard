@@ -27,11 +27,11 @@ const swaggerDocs =  {
         },
         {
             name: tag.user,
-            description: " this is the Routes is completed related with website users"
+            description: " this Routes is related with website users CURD operations"
         },
         {
             name: tag.modules,
-            description: " this Route will manage with modules"
+            description: " this Route will manage with website related modules"
         }
     ],
     paths:  {
